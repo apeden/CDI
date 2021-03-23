@@ -216,7 +216,6 @@ p = e.getPlates()[0]
 p_df = p.getComps()
 print(p_df.iloc[0:45,:])
 
-
 d = pd.read_csv("CDI_21_001_column.csv")
 print(d)
 s = d.iloc[9:,4]
